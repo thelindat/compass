@@ -1,3 +1,15 @@
+## Updated
+<img src='https://i.imgur.com/5A6qLGW.png'/>
+
+* Updated deprecated code and resource manifest type
+* Using NUI to display information instead of drawing text and shapes every frame
+* Only send messages to NUI when heading or street has changed
+* Use `PlayerPedId()` instead of `GetPlayerPed`
+* Round player heading immediately (don't update NUI if player hasn't turned 1°)
+
+<hr><br><br><br>
+<p align=center>Original</p>
+
 # FiveM FXServer - Compass and Street Names HUD
 
 > Original resource from MSQuerade, the project is located at [https://gitlab.com/MsQuerade/Compass-and-street-name-HUD](https://gitlab.com/MsQuerade/Compass-and-street-name-HUD)
