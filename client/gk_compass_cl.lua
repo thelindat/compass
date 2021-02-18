@@ -1,7 +1,4 @@
 Citizen.CreateThread( function()
-	if Config.compass.position.centered then
-		Config.compass.position.x = Config.compass.position.x - Config.compass.width / 2
-	end
 	local heading, lastHeading = 0, 1
 
 	while Config.compass.show do
