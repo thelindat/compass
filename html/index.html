@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Linden's compass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+
+    <div class="ui">
+        <div class="street"></div>
+        <div style="margin-top: 3px;" class="bar"><svg class="svg">
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="-90"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-81"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-72"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-63"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-54"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="-45"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-36"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-27"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-18"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="-9"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="0"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="9"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="18"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="27"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="36"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="45"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="54"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="63"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="72"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="81"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="90"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="99"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="108"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="117"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="126"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="135"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="144"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="153"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="162"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="171"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="180"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="189"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="198"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="207"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="216"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="225"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="234"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="243"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="252"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="261"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="270"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="279"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="288"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="297"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="306"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="315"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="324"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="333"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="342"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="351"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="360"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="369"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="378"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="387"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="396"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="4" x="405"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="414"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="423"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="432"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="2" x="441"/>
+            <rect width="1" stroke="black" fill="white" stroke-width="0.3" stroke-opacity="0.8" height="6" x="450"/>
+            </svg>
+
+            <svg class="svg"">
+                <text x="0"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana" text-anchor="middle">N</text>
+                <text x="360"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana" text-anchor="middle">N</text>
+
+                <text x="315"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">NW</text>
+                <text x="-45"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">NW</text>
+                
+                <text x="45"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">NE</text>
+                <text x="405"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">NE</text>
+                
+                <text x="90"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">E</text>
+                <text x="135"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">SE</text>
+                <text x="180"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">S</text>
+                <text x="225"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">SW</text>
+                <text x="270"  y="1.5" stroke="black" fill="white" stroke-width="0.4" stroke-opacity="0.8" style="font-family:Verdana;" text-anchor="middle">W</text>
+            </svg>
+        </div>
+
+        <div class="bar" style="top:-44px; font-size:14pt; color: white; text-shadow: 0px 0px 1px black;">|</div>
+        <div class="compass" style="top:-35px;"></div>
+
+    </div>
+
+</body>
+
+</html>
