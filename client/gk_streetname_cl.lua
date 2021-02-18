@@ -22,7 +22,7 @@ Citizen.CreateThread( function()
 			table.insert(street, GetStreetNameFromHashKey(lastStreetB))
 		end
 
-		street = table.concat(street, " & "), Config.streetName.position.x, Config.streetName.position.y
+		street = table.concat(street, " & ")
 
 		if street ~= laststreet then
 			SendNUIMessage({action = "display", type = street})
