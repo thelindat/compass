@@ -1,3 +1,5 @@
+<h3 align='center'>For more support or to see more of my resources you can join my <a href='https://discord.gg/hmcmv3P7YW'>discord</a></h3>
+
 ## Updated
 <img src='https://i.imgur.com/5A6qLGW.png'/>
 
